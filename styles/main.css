@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+  /* Основные цвета фона */
+  --bg-primary: #F8F8F8;       /* Основной фон */
+  --bg-secondary: #FFFFFF;     /* Вторичный фон (например, ячейки) */
+  --bg-current-day: #F0E6DC;   /* Фон текущего дня (светло-бежевый) */
+  --nav-accent: #7A9CC6;
+
+  /* Цвета текста */
+  --text-primary: #333333;     /* Основной текст */
+  --text-secondary: #4A4A4A;   /* Вторичный текст (чуть мягче) */
+  --text-accent: #6B8C9E;      /* Акцентный текст (заголовки, даты) */
+
+  /* Акцентные цвета для задач и выделений */
+  --accent-blue: #6B8C9E;      /* Приглушённый синий */
+  --accent-green: #8A9B8D;     /* Серо-зелёный */
+  --accent-terracotta: #C7A59D; /* Мягкий терракотовый */
+
+  /* Границы и разделители */
+  --border-light: #E0E0E0;     /* Лёгкие границы */
+  --border-dark: #D0D0D0;      /* Чуть темнее (если нужно) */
+
+  /* Тени (если нужны) */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05); /* Мягкая тень */
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    background-color: var(--bg-primary);
+}
+
